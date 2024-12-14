@@ -13,10 +13,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "src",
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "globa.js", "src/components/ToDoList.tsx", "src/components/spinner/Spinner.tsx", "src/components/list/List.tsx", "src/components/form/FormToDo.tsx"],
   "exclude": ["node_modules"]
 }
